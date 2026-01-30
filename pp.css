@@ -1,0 +1,116 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #201f1f;
+  font-style: bold;
+  color: #fcf9f9;
+  line-height: 1.7;
+  padding: 2rem 1rem;
+}
+
+/* Container */
+.privacy-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #13121200;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(16, 0, 0, 0.05);
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  color: #14a2da;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+  color: #0fdde4;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  color: #0fdde4;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  color: #faf6f6;
+}
+
+/* Paragraphs */
+p {
+  margin: 1rem 0;
+  color: #faf8f8;
+  font-weight: 3rem;
+  font-size: 1rem;
+}
+
+/* Lists */
+ul {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+ul li {
+  margin-bottom: 0.75rem;
+}
+
+/* Strong inside list items */
+li p strong {
+  color: #faf8f8;
+}
+
+/* Links */
+a {
+  color: #93c2f5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Highlighted Notes */
+strong {
+  font-weight: bold;
+  color: #faf1f1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  .privacy-container {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+}
