@@ -35,9 +35,11 @@ body {
 .menu-btn {
   cursor: pointer;
   z-index: 1002;
-  position: fixed;
-  margin-left: 1300px;
+  position: absolute;
+  right: 35px;
+  top: 20px;
 }
+
 .menu-btn div {
   width: 30px;
   height: 4px;
@@ -88,6 +90,7 @@ body {
   background-attachment: fixed;
   padding: 60px 20px;
 }
+/* General About Section Styling */
 
 .about-section {
   display: flex;
@@ -111,14 +114,24 @@ body {
   flex: 1;
   max-width: 1000px;
 }
-
+.us {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
 .about-text h1 {
   font-size: 26px;
   color: #ffffff;
   margin-bottom: 15px;
   font-weight: bold;
 }
-
+.about-description {
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #e0e0e0;
+}
 .eppp {
   font-size: 18px;
   line-height: 1.7;
@@ -155,9 +168,9 @@ body {
   color: #000;
 }
 .fbb{
-  font-size: 10vh;
-  margin-right: 15px;
-  padding: 20px;
+  font-size: 7vh;
+  margin-right: 11px;
+  padding: 10px;
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
@@ -265,6 +278,9 @@ body {
     font-size: 20px;
     min-width: 200px;
     line-height: 1.0;
+  }
+  .fbb{
+    font-size: 7vh;
   }
   .small a{
     flex: 1;
